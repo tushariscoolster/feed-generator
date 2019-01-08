@@ -1,6 +1,6 @@
 {
   "name": "feed-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate RSS feeds with support for a variety of extensions",
   "main": "lib/feedster.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "Atom",
     "Feed"
   ],
-  "author": "Andris Reinman",
+  "author": "Tushar Borole",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tushariscoolster/feed-generator/issues"
