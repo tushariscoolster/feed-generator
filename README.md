@@ -2,21 +2,19 @@
 
 Easy RSS feed generation in Node.js, supports most used RSS extensions like `itunes` for podcast generation.
 
-[![Build Status](https://secure.travis-ci.org/andris9/feedster.svg)](http://travis-ci.org/andris9/feedster)
-<a href="http://badge.fury.io/js/feedster"><img src="https://badge.fury.io/js/feedster.svg" alt="NPM version" height="18"></a>
 
 ## Installation
 
-Install from [npm](http://npmjs.com/package/feedster):
+Install from [npm](http://npmjs.com/package/feed-generator):
 
-    npm install feedster --save
+    npm install feed-generator --save
 
 ## TL;DR
 
 Example script for generating a minimal RSS feed:
 
 ```javascript
-var feedster = require('feedster');
+var feedster = require('feed-generator');
 // create feed with required elements
 var feed = feedster.createFeed({
     title: 'My Awesome Blog'
@@ -40,7 +38,7 @@ console.log(rss);
 Require feedster module
 
 ```javascript
-var feedster = require('feedster');
+var feedster = require('feed-generator');
 ```
 
 ### Create new feed object
@@ -57,7 +55,7 @@ Where
 **Example**
 
 ```javascript
-var feedster = require('feedster');
+var feedster = require('feed-generator');
 var feed = feedster.createFeed({
     title: 'My Awesome Blog'
 });
@@ -78,7 +76,7 @@ Where
 **Example**
 
 ```javascript
-var feedster = require('feedster');
+var feedster = require('feed-generator');
 var feed = feedster.createFeed();
 feed.addItem({
     title: 'My first blog post',
@@ -102,7 +100,7 @@ Where
 **Example**
 
 ```javascript
-var feedster = require('feedster');
+var feedster = require('feed-generator');
 var feed = feedster.createFeed({
     title: 'My Awesome Blog'
 });
