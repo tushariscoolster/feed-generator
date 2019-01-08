@@ -1,6 +1,6 @@
 {
-  "name": "feedster",
-  "version": "1.0.1",
+  "name": "feed-generator",
+  "version": "1.0.0",
   "description": "Generate RSS feeds with support for a variety of extensions",
   "main": "lib/feedster.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/andris9/feedster.git"
+    "url": "git://github.com/tushariscoolster/feed-generator.git"
   },
   "keywords": [
     "RSS",
@@ -18,9 +18,9 @@
   "author": "Andris Reinman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andris9/feedster/issues"
+    "url": "https://github.com/tushariscoolster/feed-generator/issues"
   },
-  "homepage": "https://github.com/andris9/feedster",
+  "homepage": "https://github.com/tushariscoolster/feed-generator",
   "dependencies": {
     "libmime": "^0.1.7",
     "moment": "^2.9.0",
