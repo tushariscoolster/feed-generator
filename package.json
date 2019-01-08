@@ -4,7 +4,8 @@
   "description": "Generate RSS feeds with support for a variety of extensions",
   "main": "lib/feedster.js",
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "grunt": "~0.4.5",
     "grunt-contrib-jshint": "~0.11.0",
     "grunt-mocha-test": "~0.12.7",
+    "release-it": "^9.6.2",
     "sinon": "^1.14.1"
   }
 }
