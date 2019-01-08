@@ -1,4 +1,4 @@
-# feedster
+# feed-generator
 
 Easy RSS feed generation in Node.js, supports most used RSS extensions like `itunes` for podcast generation.
 
