@@ -1,6 +1,6 @@
 {
   "name": "feed-generator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Generate RSS feeds with support for a variety of extensions",
   "main": "lib/feedster.js",
   "scripts": {
